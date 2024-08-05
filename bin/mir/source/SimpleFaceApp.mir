@@ -1,0 +1,66 @@
+[ @file = "C:\Users\przem\Documents\CODE\GARMIN\clockFace\First\SimpleFace\source\SimpleFaceApp.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "C:\Users\przem\Documents\CODE\GARMIN\clockFace\First\SimpleFace\source\SimpleFaceApp.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "C:\Users\przem\Documents\CODE\GARMIN\clockFace\First\SimpleFace\source\SimpleFaceApp.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\przem\Documents\CODE\GARMIN\clockFace\First\SimpleFace\source\SimpleFaceApp.mc"; @line = 5; ]
+class SimpleFaceApp extends Application.AppBase{
+    [ @file = "C:\Users\przem\Documents\CODE\GARMIN\clockFace\First\SimpleFace\source\SimpleFaceApp.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\przem\Documents\CODE\GARMIN\clockFace\First\SimpleFace\source\SimpleFaceApp.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\przem\Documents\CODE\GARMIN\clockFace\First\SimpleFace\source\SimpleFaceApp.mc"; @line = 7; ]
+    function initialize() as Void {
+C_Users_przem_Documents_CODE_GARMIN_clockFace_First_SimpleFace_source_SimpleFaceApp_mc_7_26_9_4_start:
+[ "C:\Users\przem\Documents\CODE\GARMIN\clockFace\First\SimpleFace\source\SimpleFaceApp.mc" 8 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_przem_Documents_CODE_GARMIN_clockFace_First_SimpleFace_source_SimpleFaceApp_mc_7_26_9_4_stop:
+    }
+    [ @file = "C:\Users\przem\Documents\CODE\GARMIN\clockFace\First\SimpleFace\source\SimpleFaceApp.mc"; @line = 12; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "C:\Users\przem\Documents\CODE\GARMIN\clockFace\First\SimpleFace\source\SimpleFaceApp.mc"; @line = 16; ]
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    [ @file = "C:\Users\przem\Documents\CODE\GARMIN\clockFace\First\SimpleFace\source\SimpleFaceApp.mc"; @line = 20; ]
+    function getInitialView() as [Views] or [Views, InputDelegates] {
+C_Users_przem_Documents_CODE_GARMIN_clockFace_First_SimpleFace_source_SimpleFaceApp_mc_20_68_22_4_start:
+[ "C:\Users\przem\Documents\CODE\GARMIN\clockFace\First\SimpleFace\source\SimpleFaceApp.mc" 21 8 ]
+        %tmp.1 = newa 1;
+        %tmp.5 = getv ? :SimpleFaceView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
+C_Users_przem_Documents_CODE_GARMIN_clockFace_First_SimpleFace_source_SimpleFaceApp_mc_20_68_22_4_stop:
+    }
+    [ @file = "C:\Users\przem\Documents\CODE\GARMIN\clockFace\First\SimpleFace\source\SimpleFaceApp.mc"; @line = 25; ]
+    function onSettingsChanged() as Void {
+C_Users_przem_Documents_CODE_GARMIN_clockFace_First_SimpleFace_source_SimpleFaceApp_mc_25_41_27_4_start:
+[ "C:\Users\przem\Documents\CODE\GARMIN\clockFace\First\SimpleFace\source\SimpleFaceApp.mc" 26 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :requestUpdate;
+        invoke %tmp.1 %tmp.2();
+C_Users_przem_Documents_CODE_GARMIN_clockFace_First_SimpleFace_source_SimpleFaceApp_mc_25_41_27_4_stop:
+    }
+}
+[ @file = "C:\Users\przem\Documents\CODE\GARMIN\clockFace\First\SimpleFace\source\SimpleFaceApp.mc"; @line = 31; ]
+function getApp() as SimpleFaceApp {
+C_Users_przem_Documents_CODE_GARMIN_clockFace_First_SimpleFace_source_SimpleFaceApp_mc_31_35_33_0_start:
+[ "C:\Users\przem\Documents\CODE\GARMIN\clockFace\First\SimpleFace\source\SimpleFaceApp.mc" 32 4 ]
+    %tmp.1 = getm $.Toybox.Application;
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 SimpleFaceApp;
+    ret %tmp.4;
+C_Users_przem_Documents_CODE_GARMIN_clockFace_First_SimpleFace_source_SimpleFaceApp_mc_31_35_33_0_stop:
+}
+[ @file = "C:\Users\przem\Documents\CODE\GARMIN\clockFace\First\SimpleFace\source\SimpleFaceApp.mc"; @line = 1; ]
+<init> {
+}

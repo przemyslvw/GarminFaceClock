@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\przem\Documents\CODE\GARMIN\clockFace\First\SimpleFace\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceApp.mc" id="1" lineNum="31" parent="globals" pc="268435460" symbol="getApp"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceApp.mc" id="1" lineNum="32" parent="globals" pc="268435470" symbol="getApp"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceBackground.mc" id="2" lineNum="6" parent="globals/Background" pc="268435486" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\bin\\gen\\006-B3290-00\\source\\Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceApp.mc" id="4" lineNum="5" parent="globals/SimpleFaceApp" pc="268435529" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceView.mc" id="5" lineNum="7" parent="globals/SimpleFaceView" pc="268435548" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceBackground.mc" id="6" lineNum="8" parent="globals/Background" pc="268435567" symbol="initialize"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceBackground.mc" id="6" lineNum="9" parent="globals/Background" pc="268435571" symbol="initialize"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceBackground.mc" id="6" lineNum="13" parent="globals/Background" pc="268435592" symbol="initialize"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceBackground.mc" id="7" lineNum="16" parent="globals/Background" pc="268435613" symbol="draw"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceBackground.mc" id="7" lineNum="18" parent="globals/Background" pc="268435615" symbol="draw"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceBackground.mc" id="7" lineNum="19" parent="globals/Background" pc="268435657" symbol="draw"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceApp.mc" id="8" lineNum="12" parent="globals/SimpleFaceApp" pc="268435670" symbol="onStart"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceApp.mc" id="9" lineNum="25" parent="globals/SimpleFaceApp" pc="268435673" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceApp.mc" id="9" lineNum="26" parent="globals/SimpleFaceApp" pc="268435675" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceApp.mc" id="10" lineNum="20" parent="globals/SimpleFaceApp" pc="268435692" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceApp.mc" id="10" lineNum="21" parent="globals/SimpleFaceApp" pc="268435694" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceApp.mc" id="11" lineNum="7" parent="globals/SimpleFaceApp" pc="268435735" symbol="initialize"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceApp.mc" id="11" lineNum="8" parent="globals/SimpleFaceApp" pc="268435737" symbol="initialize"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceApp.mc" id="12" lineNum="16" parent="globals/SimpleFaceApp" pc="268435756" symbol="onStop"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceView.mc" id="15" lineNum="14" parent="globals/SimpleFaceView" pc="268435759" symbol="onLayout"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceView.mc" id="15" lineNum="15" parent="globals/SimpleFaceView" pc="268435761" symbol="onLayout"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceView.mc" id="17" lineNum="9" parent="globals/SimpleFaceView" pc="268435803" symbol="initialize"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceView.mc" id="17" lineNum="10" parent="globals/SimpleFaceView" pc="268435805" symbol="initialize"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceView.mc" id="19" lineNum="25" parent="globals/SimpleFaceView" pc="268435824" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceView.mc" id="19" lineNum="27" parent="globals/SimpleFaceView" pc="268435828" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceView.mc" id="19" lineNum="28" parent="globals/SimpleFaceView" pc="268435835" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceView.mc" id="19" lineNum="29" parent="globals/SimpleFaceView" pc="268435852" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceView.mc" id="19" lineNum="30" parent="globals/SimpleFaceView" pc="268435862" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceView.mc" id="19" lineNum="31" parent="globals/SimpleFaceView" pc="268435887" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceView.mc" id="19" lineNum="32" parent="globals/SimpleFaceView" pc="268435898" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceView.mc" id="19" lineNum="35" parent="globals/SimpleFaceView" pc="268435914" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceView.mc" id="19" lineNum="36" parent="globals/SimpleFaceView" pc="268435942" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceView.mc" id="19" lineNum="37" parent="globals/SimpleFaceView" pc="268435949" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceView.mc" id="19" lineNum="40" parent="globals/SimpleFaceView" pc="268435970" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceView.mc" id="19" lineNum="43" parent="globals/SimpleFaceView" pc="268436035" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceView.mc" id="19" lineNum="44" parent="globals/SimpleFaceView" pc="268436063" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceView.mc" id="19" lineNum="45" parent="globals/SimpleFaceView" pc="268436100" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\source\\SimpleFaceView.mc" id="19" lineNum="48" parent="globals/SimpleFaceView" pc="268436114" symbol="onUpdate"/>
+        <entry filename="c:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\bin\\gen\\006-B3290-00\\source\\Rez.mcgen" id="20" lineNum="13" parent="globals/Rez/Layouts" pc="268436139" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\bin\\gen\\006-B3290-00\\source\\Rez.mcgen" id="20" lineNum="14" parent="globals/Rez/Layouts" pc="268436151" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\bin\\gen\\006-B3290-00\\source\\Rez.mcgen" id="20" lineNum="16" parent="globals/Rez/Layouts" pc="268436179" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\przem\\Documents\\CODE\\GARMIN\\clockFace\\First\\SimpleFace\\bin\\gen\\006-B3290-00\\source\\Rez.mcgen" id="20" lineNum="18" parent="globals/Rez/Layouts" pc="268436314" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry field="true" id="16" symbol="ColorRed"/>
+        <entry field="true" id="19" symbol="MilitaryFormatTitle"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="13" symbol="ColorBlue"/>
+        <entry field="true" id="10" symbol="AppName"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry field="true" id="14" symbol="ColorDarkGray"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="17" symbol="ColorWhite"/>
+        <entry field="true" id="12" symbol="ColorBlack"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="7" object="true" symbol="SimpleFaceView"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="9" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="11" symbol="BackgroundColorTitle"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8390146" module="true" object="true" symbol="Background"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="15" symbol="ColorLightGray"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389347" symbol="color"/>
+        <entry id="6" object="true" symbol="SimpleFaceApp"/>
+        <entry field="true" id="18" symbol="ForegroundColorTitle"/>
+        <entry id="8" module="true" symbol="Layouts"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435611" name="dictionary" stackId="1" startPc="268435571"/>
+        <entry arg="true" endPc="268435669" name="dc" stackId="1" startPc="268435613"/>
+        <entry arg="true" endPc="268435802" name="dc" stackId="1" startPc="268435759"/>
+        <entry arg="true" endPc="268436138" name="dc" stackId="1" startPc="268435824"/>
+        <entry endPc="268436137" name="timeFormat" stackId="2" startPc="268435828"/>
+        <entry endPc="268436137" name="clockTime" stackId="3" startPc="268435828"/>
+        <entry endPc="268436137" name="hours" stackId="4" startPc="268435828"/>
+        <entry endPc="268436137" name="timeString" stackId="5" startPc="268435828"/>
+        <entry endPc="268436137" name="view" stackId="6" startPc="268435828"/>
+        <entry arg="true" endPc="268436340" name="dc" stackId="1" startPc="268436139"/>
+        <entry endPc="268436340" name="rez_cmp_local_custom_drawable_21142935211004395826" stackId="2" startPc="268436151"/>
+        <entry endPc="268436340" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268436151"/>
+    </localVars>
+    <deviceInfo deviceVersion="f63103773bbacb69c46724929741aca164ed02ef" partNumber="006-B3290-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="63" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Background" offset="142" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/Rez" offset="197" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/SimpleFaceApp" offset="252" parentId="globals" symbolId="SimpleFaceApp" type="class"/>
+        <dataEntry label="globals/SimpleFaceView" offset="331" parentId="globals" symbolId="SimpleFaceView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="426" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="465" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="504" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435485" name="getApp" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435504" name="&lt;init&gt;" parent="Background" startPc="268435486">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435528" name="&lt;init&gt;" parent="Rez" startPc="268435505">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435547" name="&lt;init&gt;" parent="SimpleFaceApp" startPc="268435529">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435566" name="&lt;init&gt;" parent="SimpleFaceView" startPc="268435548">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435612" name="initialize" parent="Background" startPc="268435567">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435669" name="draw" parent="Background" startPc="268435613">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435672" name="onStart" parent="SimpleFaceApp" startPc="268435670">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435691" name="onSettingsChanged" parent="SimpleFaceApp" startPc="268435673">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435734" name="getInitialView" parent="SimpleFaceApp" startPc="268435692">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435755" name="initialize" parent="SimpleFaceApp" startPc="268435735">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435758" name="onStop" parent="SimpleFaceApp" startPc="268435756">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="SimpleFaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="SimpleFaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435802" name="onLayout" parent="SimpleFaceView" startPc="268435759">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="SimpleFaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435823" name="initialize" parent="SimpleFaceView" startPc="268435803">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="SimpleFaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436138" name="onUpdate" parent="SimpleFaceView" startPc="268435824">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436340" name="WatchFace" parent="Layouts" startPc="268436139">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
