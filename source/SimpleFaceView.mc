@@ -6,24 +6,25 @@ import Toybox.WatchUi;
 
 class SimpleFaceView extends WatchUi.WatchFace {
 
+    // Funkcja inicjalizująca obiekt SimpleFaceView
     function initialize() {
         WatchFace.initialize();
     }
 
-    // Load your resources here
+    // Załaduj swoje zasoby tutaj
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.WatchFace(dc));
     }
 
-    // Called when this View is brought to the foreground. Restore
-    // the state of this View and prepare it to be shown. This includes
-    // loading resources into memory.
+    // Wywoływana, gdy ten widok jest przenoszony na pierwszy plan. Przywróć
+    // stan tego widoku i przygotuj go do wyświetlenia. Obejmuje to
+    // ładowanie zasobów do pamięci.
     function onShow() as Void {
     }
 
-    // Update the view
+    // Aktualizuj widok
     function onUpdate(dc as Dc) as Void {
-        // Get the current time and format it correctly
+        // Pobierz aktualny czas i sformatuj go poprawnie
         var timeFormat = "$1$:$2$";
         var clockTime = System.getClockTime();
         var hours = clockTime.hour;
@@ -39,26 +40,26 @@ class SimpleFaceView extends WatchUi.WatchFace {
         }
         var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
 
-        // Update the view
+        // Zaktualizuj widok
         var view = View.findDrawableById("TimeLabel") as Text;
         view.setColor(getApp().getProperty("ForegroundColor") as Number);
         view.setText(timeString);
 
-        // Call the parent onUpdate function to redraw the layout
+        // Wywołaj funkcję onUpdate z klasy bazowej, aby przerysować układ
         View.onUpdate(dc);
     }
 
-    // Called when this View is removed from the screen. Save the
-    // state of this View here. This includes freeing resources from
-    // memory.
+    // Wywoływana, gdy ten widok jest usuwany z ekranu. Zapisz
+    // stan tego widoku tutaj. Obejmuje to zwalnianie zasobów z
+    // pamięci.
     function onHide() as Void {
     }
 
-    // The user has just looked at their watch. Timers and animations may be started here.
+    // Użytkownik właśnie spojrzał na swój zegarek. Timery i animacje mogą być uruchamiane tutaj.
     function onExitSleep() as Void {
     }
 
-    // Terminate any active timers and prepare for slow updates.
+    // Zakończ wszelkie aktywne timery i przygotuj się do wolnych aktualizacji.
     function onEnterSleep() as Void {
     }
 
