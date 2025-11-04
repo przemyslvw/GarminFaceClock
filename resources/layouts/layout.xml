@@ -31,7 +31,7 @@
     </layout>
     
     <!-- Icons -->
-    <bitmap id="StepsIcon" filename="../drawables/steps.png" x="25%" y="75%" />
-    <bitmap id="HeartIcon" filename="../drawables/heart.png" x="50%" y="75%" />
-    <bitmap id="BatteryIcon" filename="../drawables/battery.png" x="75%" y="75%" />
+    <bitmap id="StepsIcon" filename="../drawables/icons/StepsIcon.png" x="25%" y="75%" />
+    <bitmap id="HeartIcon" filename="../drawables/icons/HeartRateIcon.png" x="50%" y="75%" />
+    <bitmap id="BatteryIcon" filename="../drawables/icons/BatteryIcon.png" x="75%" y="75%" />
 </layout>
