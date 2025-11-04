@@ -4,6 +4,13 @@
 
 A modern, feature-rich watch face for Garmin fenix6pro devices, designed with both functionality and aesthetics in mind.
 
+## Planned Features
+
+- Add data fields (steps, heart rate, battery)
+- Implement date and day display
+- Add battery saver mode
+- Enhance color customization
+
 ## Features
 
 - **Clean, modern design** with customizable elements
