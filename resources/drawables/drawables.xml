@@ -1,6 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <drawables>
+    <!-- Launcher icon (wymagany) -->
     <bitmap id="LauncherIcon" filename="launcher_icon.png" />
-    <bitmap id="StepsIcon" filename="steps.png" />
-    <bitmap id="HeartIcon" filename="heart.png" />
-    <bitmap id="BatteryIcon" filename="battery.png" />
+    
+    <!-- Ikony używające wbudowanych zasobów -->
+    <bitmap id="StepsIcon" filename="icons/StepsIcon.png" />
+    <bitmap id="HeartIcon" filename="icons/HeartRateIcon.png" />
+    <bitmap id="BatteryIcon" filename="icons/BatteryIcon.png" />
 </drawables>
