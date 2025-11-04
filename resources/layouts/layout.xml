@@ -1,4 +1,37 @@
 <layout id="WatchFace">
     <drawable class="Background" />
-    <label id="TimeLabel" x="center" y="center" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+    <!-- Time Display -->
+    <label id="TimeLabel" x="center" y="30%" font="Graphics.FONT_NUMBER_MEDIUM" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    
+    <!-- Data Fields -->
+    <label id="DateLabel" x="center" y="45%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_LT_GRAY" />
+    
+    <!-- Bottom Row -->
+    <layout id="BottomRow" x="center" y="65%" width="100%">
+        <!-- Steps -->
+        <label id="StepsLabel" x="25%" y="0" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE">
+            <params>
+                <param name="format" value="%d" />
+            </params>
+        </label>
+        
+        <!-- Heart Rate -->
+        <label id="HeartRateLabel" x="50%" y="0" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_RED">
+            <params>
+                <param name="format" value="%d" />
+            </params>
+        </label>
+        
+        <!-- Battery -->
+        <label id="BatteryLabel" x="75%" y="0" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN">
+            <params>
+                <param name="format" value="%d%%" />
+            </params>
+        </label>
+    </layout>
+    
+    <!-- Icons -->
+    <bitmap id="StepsIcon" filename="../drawables/steps.png" x="25%" y="75%" />
+    <bitmap id="HeartIcon" filename="../drawables/heart.png" x="50%" y="75%" />
+    <bitmap id="BatteryIcon" filename="../drawables/battery.png" x="75%" y="75%" />
 </layout>
